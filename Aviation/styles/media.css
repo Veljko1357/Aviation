@@ -1,0 +1,274 @@
+@media only screen and (max-width: 999px) {
+    #page #header {
+        background: #274F75;
+    }
+
+    #page #header ul {
+        background: #82BC0E;
+        width: auto;
+    }
+    
+    #page #header #section {
+        width: auto;
+        height: 115px;
+    }
+    
+    #page #header #section div a img {
+        height: 30px;
+    }
+    
+    #page #header #section span {
+        font-size: 12px;
+    }
+
+    #page #content {
+        width: auto;
+    }
+
+    #page #content #home {
+       width: auto;
+    }
+
+
+    #page #content #home #aside {
+        margin-left: 163px;
+    }
+
+    #page #content #home #aside h1 {
+        text-align: center;
+    }
+
+    #page #content #home #calendar  {
+        margin-left: 147px;
+        margin-top: 40px;
+        width: 570px;
+    }
+
+    #page #content #home #calendar h3 {
+        text-align: center;
+    }
+
+    #page #content #home #calendar ul {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -125px;
+    }
+
+    #page #content #home #calendar ul li {
+        padding-right: 28px;;
+    }
+
+    #page #content #home #calendar ul li:last-child p {
+        padding-bottom: 40px;
+    }
+
+    #page #footer {
+        width: auto;
+    }
+
+    #page #footer .section ul {
+        margin-right: 257px;
+    }
+
+
+    #page #footer .section p {
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+  
+    #page #content #home #calendar ul {
+        width: auto;
+        display: inline;
+    }
+
+    #page #content #home #calendar ul li {
+    height:186px;
+	
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    #page #header ul:hover {
+        height: auto;
+    }
+    
+    #page #header ul {
+        height: 43px;
+        overflow-y: hidden;
+    }
+    
+    #page #header ul li {
+        float: none;
+        padding-right: 0;
+    }
+
+    #page #header ul li.notMenuItem {
+        display: block;
+        color: #28475C;
+        display: block;
+        font-size: 14px;
+        height: 43px;
+        line-height: 37px;
+        padding: 0 23px;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 1px 1px 0 #94C81D;
+        text-transform: capitalize;
+    }
+
+    #page #header ul li.notMenuItem:hover {
+        background: #82BC0E;
+    }
+
+}
+
+@media only screen and (max-width:778px) {
+    #page #content #home div {
+        margin-left:-147px;
+    }
+  
+    #page #footer {
+        width: auto;
+        height: 141px;
+    }
+
+    #page #footer #connect {
+        width: 250px;
+        padding-bottom: 29px;
+        position: absolute;
+        margin-left: 32%;
+    }
+
+    #page #footer .section {
+        float:none;  
+        margin-top: 57px;  
+    }
+
+
+}
+
+@media only screen and (max-width: 638px) {
+
+    #page #header #section {
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #page #header #section div {
+        margin-top: 10px;
+    }
+
+    #page #header #section span {
+        float: none;
+        display: block;
+        clear: left;
+        text-align: left;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #page #header #tagline {
+        margin-top: 0;
+        background-position: -650px -20px;
+    }
+
+    #page #content #home #aside a img {
+        margin-left: 193px;
+        float: none;
+    }
+
+    #page #content #home #aside div:first-child p{
+        margin-left: 147px;
+        width: 260px;
+    }
+
+    #page #content #home #aside div:first-child #p1{
+        padding-top: 45px;
+    }
+
+    #page #content #home #aside div:first-child #p2 {
+        padding-top: 20px;
+    }
+
+    #page #content #home #aside ul {
+    padding-left: 150px;
+    text-align: center;
+    }
+
+    #page #content #home #calendar {
+        width: 260px;
+        margin-left: 315px;
+    }
+
+    #page #footer #connect {
+        margin-left: 190px;
+    }
+
+    #page #footer .section {
+        margin-left: 15px;     
+    }
+}
+
+@media only screen and (max-width:523px) {
+    
+    #page #content #home div {
+        margin-left: -200px;
+    }
+   
+    #page #footer .section {
+        margin-left: 0;     
+    }
+
+    #page #footer .section p {
+        font-size: 10px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #page #header #section div a img {
+        height: auto;
+        width: 100%;
+    }
+
+    #page #header #tagline div,
+    #page #header #tagline div h4,
+    #page #header #tagline div p {
+        width: auto;
+    }
+
+    #page #header #tagline div h4 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    #page #header #tagline div p {
+        font-size: 18px;
+    }
+
+    #page #content #home div {
+        margin-left: -260px;
+    }
+
+    #page #footer #connect {
+        margin-left: 115px;
+    }
+
+    #page #footer .section ul {
+        position:absolute;
+        margin-right: 298px;
+    }
+
+    #page #footer .section p {
+        margin-left: 1px;
+        font-size: 10px;
+    }
+    
+}
